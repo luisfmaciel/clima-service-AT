@@ -9,7 +9,7 @@ import reactor.core.publisher.Mono;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/clima")
+@RequestMapping("/api/climas")
 public class ClimaController {
 
     @Autowired

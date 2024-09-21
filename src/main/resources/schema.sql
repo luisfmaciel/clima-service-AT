@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS historicos (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    country VARCHAR(255) NOT NULL,
+    date VARCHAR(255) NOT NULL,
+    text TEXT
+);
