@@ -17,6 +17,7 @@ public class ClimaController {
 
     @GetMapping("/pais/{pais}")
     public Mono<List<Clima>> getClimas(@PathVariable String pais, @RequestParam String token) {
+        // teste ci/cd
         return climaService.buscarClima(pais, token);
     }
 }
